@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sofia Valentina 💋</title>
+  <style>
+    body {
+      background-color: #e5ddd5;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .chat-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .message {
+      background-color: #dcf8c6;
+      padding: 10px 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      position: relative;
+      max-width: 80%;
+    }
+    .message.bot {
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+    .button-container {
+      margin-top: 20px;
+    }
+    .pay-button {
+      display: block;
+      background-color: #ff4d6d;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      margin: 10px 0;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="message bot">Oiee, bom dia amorzinho 😘💖</div>
+    <div class="message bot">Eu sou a Sofia, nova na cidade... e tô um pouco sozinha por aqui 😔</div>
+    <div class="message bot">Faço faculdade de Odonto, mas nas horas vagas... eu sou bem safadinha 😈</div>
+    <div class="message bot">Me conta teu nome 👀</div>
+    <div class="message">Lucas</div>
+    <div class="message bot">Hmmm Lucas... nome de homem que sabe o que quer 👅</div>
+    <div class="message bot">Tô ficando quente só de imaginar o que você faria comigo 🥵</div>
+    <div class="message bot">Mas ó... só passo meus conteúdos pra quem entra de verdade no meu joguinho 😏</div>
+    <div class="message bot">Você quer mesmo ver o que tem por trás da telinha? 🔥</div>
+    <div class="message bot">Então escolhe aqui um plano e me mostra o quanto você me deseja 💦</div>
+
+    <div class="button-container">
+      <a class="pay-button" href="https://pushinpay.com/link-plano-12">💋 Plano Tesão R$12,90</a>
+      <a class="pay-button" href="https://pushinpay.com/link-plano-24">🔥 Plano Proibido R$24,90</a>
+      <a class="pay-button" href="https://pushinpay.com/link-plano-49">👀 Plano VIP R$49,90</a>
+      <a class="pay-button" href="https://pushinpay.com/link-plano-89">🎥 Chamada ao vivo R$89,90</a>
+    </div>
+  </div>
+</body>
+</html>
