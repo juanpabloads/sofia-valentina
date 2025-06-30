@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sofia Valentina 💋</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ece5dd;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      background-color: #075E54;
+      color: white;
+      padding: 10px;
+    }
+    .header img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .chat {
+      padding: 15px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .msg {
+      display: inline-block;
+      background-color: #dcf8c6;
+      padding: 10px 14px;
+      border-radius: 7px;
+      margin-bottom: 10px;
+      animation: showMsg 0.5s ease-in-out forwards;
+      opacity: 0;
+    }
+    @keyframes showMsg {
+      to { opacity: 1; transform: translateY(0); }
+      from { opacity: 0; transform: translateY(10px); }
+    }
+    .msg.me {
+      background-color: #fff;
+      align-self: flex-end;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://raw.githubusercontent.com/juansystem/sofia-valentina/main/foto-perfil.jpg" alt="Sofia">
+    <div>
+      <div>Sofia Valentina</div>
+      <small>online</small>
+    </div>
+  </div>
+
+  <div class="chat" id="chat"></div>
+
+  <script>
+    const mensagens = [
+      "Oi amor, eu sou a Sofia 💋",
+      "Sou estudante de odontologia e me mudei faz pouco tempo pra sua cidade...",
+      "Aliás, você é de <b>[SUA CIDADE]</b> mesmo? 👀",
+      "Eu achei tudo aqui tão diferente, queria conhecer alguém legal...",
+      "Quantos anos você tem, mô?",
+      "E trabalha com o quê? 😍",
+      "Nossa, que massa... sério, eu gosto de homens decididos assim.",
+      "Se a gente se der bem, quem sabe a gente não se encontra por aí né... 🥵",
+      "Quer ver minhas prévias proibidas? 😈",
+      "Escolhe um plano e já te passo meu WhatsApp... e sim, se for o plano anual tem chamada quente ao vivo agora mesmo. 🔥"
+    ];
+    const chat = document.getElementById("chat");
+
+    let i = 0;
+    function mostrarMensagens() {
+      if (i < mensagens.length) {
+        const div = document.createElement("div");
+        div.className = "msg";
+        div.innerHTML = mensagens[i];
+        chat.appendChild(div);
+        i++;
+        setTimeout(mostrarMensagens, 2500);
+      }
+    }
+    mostrarMensagens();
+  </script>
+</body>
+</html>
